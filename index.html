@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300&family=Chonburi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300&display=swap" rel="stylesheet">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <title>My Portfolio</title>
+    
+</head>
+
+<body class="">
+
+   
+    <!-- header -->
+
+    <header>
+
+        <!-- navigation-Menu -->
+
+        <nav class="p-5 backdrop-blur-lg border-b border-blue-50 shadow md:flex md:items-center md:justify-between fixed top-0 z-50 w-full px-12">
+
+            <div class="flex justify-between items-center ">
+
+              <h1 class=" text-2xl text-gray-300 font-bold font-chonburi">|RY</h1>
+        
+              <span class="text-3xl text-gray-300 cursor-pointer mx-2 md:hidden block">
+                <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+              </span>
+
+            </div>
+        
+            <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute md:bg-transparent bg-slate-800 w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+
+              <li class="mx-4 my-6 md:my-0">
+                <a href="#home" class=" text-gray-200 hover:text-cyan-500 duration-500">HOME</a>
+              </li>
+
+              <li class="mx-4 my-6 md:my-0">
+                <a href="#about" class="text-gray-200 hover:text-cyan-500 duration-500">ABOUT</a>
+              </li>
+
+              <li class="mx-4 my-6 md:my-0">
+                <a href="#education" class="text-gray-200 hover:text-cyan-500 duration-500">EDUCATION</a>
+              </li>
+
+              <li class="mx-4 my-6 md:my-0">
+                <a href="#project" class="text-gray-200 hover:text-cyan-500 duration-500">PROJECTS</a>
+              </li>
+
+              <li class="mx-4 my-6 md:my-0">
+                <a href="./resume.html" class="text-gray-200 hover:text-cyan-500 duration-500">RESUME</a>
+              </li>
+
+              <li class="mx-4 my-6 md:my-0">
+                <a href="#contact" class="text-gray-200 hover:text-cyan-500 duration-500">CONTACT</a>
+              </li>
+        
+            </ul>
+        </nav>
+
+        <!-- navigation-close -->
+
+    </header>
+
+    <!-- header-close -->
+
+    <!-- _____________________________________________________________ body-part ____________________________________________________________ -->
+
+     <!-- home-page -->
+
+     <section id="home" >
+        <div class=" flex items-center justify-center bg-slate-800">
+            <div class=" lg:ml-16 lg:mt-0 mt-40 flex flex-col items-center justify-center lg:flex-none lg:items-start lg:p-20 p-5 ">
+                <h1 class="flex">
+                    <p class=" text-xl border-b-2 border-gray-400 font-asap pb-3 text-white">HELLO</p>
+                    <p class=" text-xl font-asap text-white">, MY NAME IS</p>
+                </h1>
+                <h1 class=" md:text-6xl text-4xl text-white font-chonburi mt-16">Ruchi yadav</h1>
+                <h1 class=" w-auto text-2xl mt-3 text-white">Learning Enthusiast</h1>
+                <h1 class="mt-20 flex">
+                    <i class="text-3xl text-blue-400 fa-solid fa-envelope"></i>
+                    <p class=" font-mono text-xl mx-3 text-white">yadavruchi1509@gmail.com</p>
+                <h1>
+                <h1 class="flex">
+                    <i class="text-2xl mt-2 text-blue-400 fa-solid fa-phone"></i>
+                    <p class=" mt-3 font-mono text-white text-xl mx-3">730-736-5089</p>
+                </h1>   
+    
+            </div>
+            <div class="lg:flex hidden bg-gradient-to-tl h-[800px] w-[800px] bg-gray-900 from-gray-400 rounded-bl-full">
+                <img class="md:h-[400px] md:w-[400px] lg:h-[600px] lg:w-[600px] rounded-full md:mt-36 lg:mr-32" src="profile.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- about-page -->
+
+    <section id="about" class=" h-auto w-full">
+        <div class="md:p-32 p-11 bg-slate-900 md:h-screen h-auto">
+            <h1 class=" text-xl text-gray-200 font-serif">About me</h1>
+            <p class=" font-chonburi text-3xl mt-10 text-gray-300">
+                A final year BCA student want to work with an organization where can learn
+                new skills and increase my abilities for the organizational goals as well as
+                myself.
+            </p>
+            <p class=" text-xl text-gray-300 mt-6">"I hold a Bachelor's degree in Computer Science from <strong>Allenhouse Business School</strong>, where i gained a solid foundation 
+                in programming languages, algorithms, and software development."
+                also I completed an online internship in web development
+                 at <strong>TECHNOHACKS</strong>, where I gained valuable experience in web development. I'm skilled in HTML, CSS, Javascript, and 
+                I'm always eager to learn more!
+            </p>
+           </div>
+    </section>
+
+    <!-- education-page -->
+
+    <section class="h-auto bg-slate-800 pb-32 " id="education">
+        <div class=" flex items-center justify-center pt-24" >
+            <h1 class=" font-semibold text-3xl text-gray-300">Education</h1>
+        </div>
+        <div class=" flex flex-wrap">
+            <div>
+                <div class=" md:ml-32 ml-5 mr-5 mt-20">
+                    <div class=" h-5 w-5 flex items-center justify-center rounded-full bg-black">
+                        <div class=" h-4 w-4  bg-white rounded-full"></div>
+                    </div>
+                    <div class=" flex flex-col pl-4 pb-5 h-auto w-auto border-l-2 ml-2 border-gray-500">
+                        <h1 class=" font-semibold text-xl text-gray-300 ">BACHELOR OF COMPUTER APPLICATION</h1>
+                        <p class="text-xl text-gray-200 pt-3">Allenhouse Business School</p>
+                        <p class=" text-blue-300 pt-2">2021-2024</p>
+                    </div>
+                </div>
+       
+                <div class="md:ml-32 ml-5 mr-5 ">
+                  <div class=" h-5 w-5 flex items-center justify-center rounded-full bg-black">
+                      <div class=" h-4 w-4  bg-white rounded-full"></div>
+                  </div>
+                  <div class=" flex flex-col pl-4 pb-5 h-auto w-auto border-l-2 ml-2 border-gray-500">
+                      <h1 class=" font-semibold text-gray-300 text-xl">BACHELOR OF COMPUTER APPLICATION</h1>
+                      <p class="text-xl text-gray-200 pt-3">Allenhouse Business School</p>
+                      <p class=" text-blue-300 pt-2">2021-2024</p>
+                  </div>
+                </div>
+       
+                <div class="md:ml-32 ml-5 mr-5 ">
+                    <div class=" h-5 w-5 flex items-center justify-center rounded-full bg-black">
+                        <div class=" h-4 w-4  bg-white rounded-full"></div>
+                    </div>
+                    <div class=" flex flex-col pl-4 pb-5 h-auto w-auto border-l-2 ml-2 border-gray-500">
+                     <h1 class=" font-semibold text-gray-300 text-xl">BACHELOR OF COMPUTER APPLICATION</h1>
+                     <p class="text-xl text-gray-200 pt-3">Allenhouse Business School</p>
+                      <p class=" text-blue-300 pt-2">2021-2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" h-auto w-full lg:w-auto  p-10 md:p-32 lg:p-20 lg:ml-20">
+                <h1 class=" text-2xl text-gray-200">SKILLS</h1>
+                <div class="mb-1 flex justify-between text-lg font-medium text-yellow-600 mt-6">
+                    <p>HTML</p>
+                    <p>95%</p>
+                </div>
+                <div class="w-full lg:w-96 h-4 mb-4 bg-gray-200 rounded-full dark:bg-gray-700">
+                <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-500" style="width: 95%"></div>
+
+                <div class="mb-1 flex justify-between text-lg font-medium text-yellow-600 mt-6">
+                    <p>Css</p>
+                    <p>90%</p>
+                </div>
+                <div class="w-full lg:w-96 h-4 mb-4 bg-gray-200 rounded-full dark:bg-gray-700">
+                <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-500" style="width: 90%"></div>
+
+                <div class="mb-1 flex justify-between text-lg font-medium text-yellow-600 mt-6">
+                    <p>Javascript</p>
+                    <p>70%</p>
+                </div>
+                <div class="w-full lg:w-96 h-4 mb-4 bg-gray-200 rounded-full dark:bg-gray-700">
+                <div class="h-4 bg-blue-600 rounded-full dark:bg-blue-500" style="width: 70%"></div>
+            </div>  
+        </div>
+
+    </section>
+    
+    <!-- trainings -->
+    <section class="flex flex-wrap items-center justify-center h-auto w-full bg-slate-900 pt-20 pb-20">
+        <div class=" flex flex-col items-center justify-center md:mx-20">
+            <h1 class=" text-2xl font-bold underline text-gray-300">Trainings and Certification </h1>
+            <p class=" pl-2 text-2xl font-semibold text-gray-200 pt-5">LI-MAT SOFT SOLUTIONS</p>
+            <p class=" pl-2 pt-2 text-xl text-gray-400">Advanced C and Web Development</p>
+            <p class=" pt-5 text-gray-300">Certificate of Advanced C  <a class=" text-blue-500" href="./c.jpg">- Click</a></p>
+            <p class=" pt-2 text-gray-300">Certificate of Web devlopment <a class=" text-blue-500" href="./web.jpg" >- Click</a></p>
+        </div>
+        <div class=" flex flex-col items-center justify-center md:mx-20 md:pt-0 pt-5">
+            <h1 class=" text-2xl font-bold underline text-gray-300">Internship</h1>
+            <p class=" pl-2 text-2xl font-semibold text-gray-200 pt-5">TECHNOHACKS</p>
+            <p class=" pl-2 pt-2 text-xl text-gray-400">Web Development</p>
+            <p class=" pt-2 text-gray-300">Certificate of Web devlopment <a class=" text-blue-500" href="./internship.jpg" >- Click</a></p>
+        </div>
+    </section>
+    
+
+    <!-- projects -->
+
+    <section id="project" class=" flex flex-col items-center justify-center bg-slate-800 md:h-screen h-auto pb-10">
+        <h1 class=" pt-6 md:pt-0 text-2xl font-semibold text-gray-200 ">Projects</h1>
+        <div class=" md:flex items-center justify-center pt-16 ">
+
+            <!-- _HOSPITALITY-PROJECT -->
+            <div class=" flex flex-col items-center justify-center ">
+                <div class=" relative z-40 md:h-60 h-40 md:w-60 w-40 rounded-full md:ml-[-50px] cursor-pointer">
+                    <img class=" rounded-full transform scale-100 hover:scale-110 transition duration-1500 border-4 border-black" src="./h-landingpage.jpg" alt="">
+                </div>
+                <a class=" text-xl w-auto text-gray-200 mt-2 hover:text-yellow-800" href="./hospitality.html">discription</a>
+            </div>
+
+            <!-- _E-GURU Landing page -->
+            <div class=" flex flex-col items-center justify-center md:mt-0 mt-5 ">
+                <div class=" relative z-40 md:h-60 h-40 md:w-60 w-40 rounded-full md:ml-[-50px] cursor-pointer">
+                    <img class=" rounded-full transform scale-100 hover:scale-110 transition duration-1500 border-4 border-black" src="./e-guru.jpg" alt="">
+                </div>
+                <a class=" text-xl w-auto  text-gray-200 mt-2 hover:text-yellow-800" href="./discription-E.html">discription</a>
+            </div>
+
+            <!-- _NFT-LANDING-PAGE -->
+            <div class=" flex flex-col  items-center justify-center md:mt-0 mt-5">
+                <div class=" relative z-40 md:h-60 md:w-60 h-40 w-40 rounded-full md:ml-[-50px] cursor-pointer">
+                    <img class="  rounded-full transform scale-100 hover:scale-110 transition duration-1500 border-4 border-black" src="./nf.jpg" alt="">
+                </div>
+                <a class=" text-xl w-auto  text-gray-200 mt-2 hover:text-yellow-800" href="">discription</a>
+            </div>
+
+            <!-- _Resturant-project -->
+            <div class=" flex flex-col items-center justify-center md:mt-0 mt-5">
+                <div class=" relative z-40 md:h-60 h-40  md:w-60 w-40 rounded-full md:ml-[-50px] cursor-pointer">
+                    <img class=" rounded-full bg-cover transform scale-100 hover:scale-110 transition duration-1500 border-4 border-black" src="./resturant.jpg" alt="">
+                </div>
+                <a class=" text-xl w-auto  text-gray-200 mt-2 hover:text-yellow-800" href="">discription</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact-page -->
+
+    <footer id="contact" class=" h-auto w-full bg-slate-900  p-10">
+
+        <!-- contact me page -->
+       <h1 class=" text-2xl text-white font-chonburi">Contact Me</h1>
+        <div class="container mx-auto px-4 py-8">
+            <div id="contactForm" class=" bg-gray-200 shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                        Name
+                    </label>
+                    <input id="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Your Name">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                        Email
+                    </label>
+                    <input id="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" placeholder="Your Email">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+                        Message
+                    </label>
+                    <textarea id="message" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Your Message"></textarea>
+                </div>
+                <button id="submitButton" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                    Send
+                </button>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+    
+
+      <script src="script.js"></script>
+    </body>
+</html>
